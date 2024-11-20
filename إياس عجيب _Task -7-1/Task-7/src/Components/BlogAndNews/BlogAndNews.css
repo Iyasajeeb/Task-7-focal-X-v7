@@ -1,0 +1,9 @@
+.BlogAndNews {
+    margin-top: 100px;
+    margin-bottom: 200px;
+  }
+@media (max-width: 992px) {
+  .BlogAndNews {
+    padding: 20px 12px;
+  }
+}

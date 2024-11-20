@@ -1,0 +1,40 @@
+.card-1{
+    padding: 25px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(243, 247, 251);
+}
+.icon-div{
+    width: 50px;
+    padding: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.144);
+    margin-bottom: 20px;
+    border-radius: 5px;
+    
+}
+.icon-div img{
+    width: 100%;
+}
+.card-1 h4{
+    margin: 0;
+    font-weight:bold;
+    font-size: 18px;
+    font-family: "Rajdhani", serif;
+}
+.card-1 p{
+    margin-bottom: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+.card-1 button{
+    padding: 6px 10px;
+    width: 130px;
+    border-radius:30px ;
+    border: 1px solid rgba(128, 128, 128, 0.144);
+    background-color: #F3F7FB;
+}
+
+.card-1 button:hover{
+    background-color:rgb(56, 75, 255);
+    color: white;
+}

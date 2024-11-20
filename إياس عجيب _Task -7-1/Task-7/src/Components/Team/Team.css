@@ -1,0 +1,26 @@
+.Team{
+    margin-top: 50px;
+}
+.Team-Title{
+    color: rgb(56, 75, 255);
+    margin-bottom: 20px;
+    font-family: "Montserrat", sans-serif;
+
+}
+.Team-left-section h2{
+    width: 80%;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Rajdhani", serif;
+}
+.AllMembers-button{
+    text-align: end;
+    
+}
+.AllMembers-button button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(56, 75, 255);
+    color: white;
+}

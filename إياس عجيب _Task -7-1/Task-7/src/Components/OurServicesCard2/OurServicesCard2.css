@@ -1,0 +1,25 @@
+.card-2{
+
+    padding: 20px;
+}
+.card-number{
+    color: rgb(189, 189, 189);
+    font-size: 50px;
+    -webkit-text-stroke: 1px;
+    -webkit-text-fill-color: #18185E;
+}
+.card-number:hover{
+    color: white;
+}
+.card-2 h4{
+    color: white;
+    margin: 15px 0;
+    font-weight:bold;
+    font-size: 18px;
+
+}
+.card-2 p{
+    color: rgb(189, 189, 189);
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+}

@@ -1,0 +1,22 @@
+.Footer-Component-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.Footer-Component-2-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.Footer-Component-2-right p,
+.Footer-Component-2-left p {
+  margin: 0;
+  color: white;
+}
+@media (max-width: 768px) {
+  .Footer-Component-2 {
+    flex-direction: column;
+  }
+}

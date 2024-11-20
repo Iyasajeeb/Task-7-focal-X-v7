@@ -1,0 +1,79 @@
+.ContactSection-Call{
+    display: flex;
+    padding:20px 20px;
+    border-top: 1px solid white;
+    color: white;
+}
+.ContactSection-Call-icon{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed white;
+    border-radius: 50%;
+}
+.ContactSection-Call p{
+    margin: 0;
+    padding-left: 20px;
+}
+.ContactSection-Call-p{
+    font-weight: bold;
+    font-size: 18px;
+}
+.ContactSection-Call-icon svg{
+    font-size: 20px;
+}
+
+.ContactSection-Call-Col-1{
+    margin: 60px 0;
+    background-color:rgb(56, 75, 255);
+    border-radius: 12px;
+    
+}
+.ContactSection-Call-Col-2{
+    padding: 150px 30px;
+}
+.ContactSection-Call-Col-2 h2{
+    font-weight: bold;
+    font-family: "Rajdhani", serif;
+    font-size: 38px;
+}
+.ContactSection-Call-Col-2 p{
+    margin: 30px 0;
+    
+}
+.vid-iframe-div{
+    height: 345px;
+}
+.vid-iframe{
+    border-radius:0 0 20px 20px ;
+}
+.input-form input{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #bcbfff;
+    border-radius: 5px;
+
+}
+.input-form label{
+    display: block;
+    margin:15px 0;
+    font-weight: 500;
+}
+.input-form textarea{
+    width: 100%;
+    height: 100px;
+    border: 1px solid #bcbfff;
+    border-radius: 5px;
+    
+}
+.ContactSection-Call-Col-2 button{
+    width: fit-content;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    background-color:rgb(56, 75, 255);
+    color: white;
+}

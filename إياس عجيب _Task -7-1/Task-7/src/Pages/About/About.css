@@ -1,0 +1,22 @@
+.list-about ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+.list-about li {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  padding: 3px 20px;
+}
+.list-about img {
+  padding-right: 50px;
+}
+@media (max-width: 992px) {
+    .list-about ul {
+    display: none;
+    }
+}

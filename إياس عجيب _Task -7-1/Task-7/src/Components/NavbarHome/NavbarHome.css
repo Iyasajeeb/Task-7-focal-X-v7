@@ -1,0 +1,73 @@
+.Ia-Navbar {
+  width: 80%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: white;
+  padding: 35px 50px;
+  border-radius: 50px;
+  box-shadow: 0 6px 0px 4px #c3c8ff;
+  z-index: 99;
+
+}
+
+
+.Menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.Ia-Navbar li {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  padding: 3px 20px;
+}
+
+.NavSide-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.NavSide-right button {
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 16px 32px;
+  background-color: #384bff;
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+
+.NavSide-right button:hover {
+  background-color: white;
+  color: #384bff;
+  border: 1px solid #384bff;
+}
+
+.NavSide-right svg {
+  margin: 15px;
+}
+
+.cart-icon {
+  fill: #384bff;
+}
+
+@media (max-width: 768px) {
+  .Menu {
+    display: none;
+  }
+  .NavSide-right {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Full width for buttons */
+  }
+}

@@ -1,0 +1,19 @@
+.title{
+    margin: 50px;
+}
+.section-name {
+  display: flex;
+  align-items: center;
+  color: #2e42ff;
+}
+.section-name h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: small;
+    font-weight: 600;
+    margin: 5px;
+}
+.title-row p{
+    font-family: "Rajdhani", serif;
+    font-size: 42px;
+    font-weight: bold;
+}
